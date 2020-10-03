@@ -1,0 +1,352 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* navigation start here */
+
+.navigation-bar {
+    width: 100%;
+    background-color: #0f1116;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navigation-bar p {
+    color: white;
+    margin-top: 0px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.navigation-bar .grey {
+    color: grey;
+    font-size: 13px;
+}
+
+.navigation-bar ul {
+    color: lightslategray;
+    list-style-type: none;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navigation-bar li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navigation-bar a {
+    color: grey;
+    text-decoration: none;
+}
+
+/* block1 start here */
+
+.block1 {
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding-top: 50px;
+}
+
+.block1-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block1-text p {
+    margin-top: 0px;
+    color: silver;
+    font-size: 27px;
+    line-height: 50px;
+}
+
+.block1-text .white {
+    color: white;
+}
+
+.button {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #d84780;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* BLOCK1-BOXS START HERE */
+
+.block1-boxs {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.block1-boxs .position{
+    position: relative;
+    bottom: -100px;
+}
+
+.block1-boxs .box {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    float: left;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.block1-boxs .box img {
+    width: 100%;
+}
+
+.block1-boxs .box p {
+    color: grey;
+}
+
+.block1-boxs .margin-left {
+    margin-left: 4.8%;
+}
+
+
+
+
+/* BLOCK 1 ENDS HERE */
+
+/* BLOCK 2 START HERE */
+.block2{
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center top;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.block2-center{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.block2-center .box{
+    float:left;
+    width: 49.5%;
+   
+}
+.block2-center .margin-left{
+    float:right;
+}
+.block2-center .box i{
+    color: white;
+    float: left;
+    font-size: 50px;
+}
+.block2-center .box .small-box{
+    float: left;
+    
+    margin-left: 10px;
+}
+.block2-center .small-box h2{
+    color:white;
+    margin-top:0px;
+    font-size: 25px;
+}
+.block2-center .small-box p{
+    color:whitesmoke;
+    font-size: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* block 2 start here */
+
+/* BLOCK 3 START HERE */
+
+.block3 {
+    width: 100%;
+    background-color: #d84780;
+    padding: 50px 0px;
+    clear: both;
+}
+
+.block3-center {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.block3-center h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.block3-center p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.block3-center .name {
+    width: 100%;
+    text-align: left;
+}
+
+.block3-center .name input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.block3-center .email {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.block3-center .email input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.block3-center .message {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.block3-center .message textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.block3-center button {
+    background: none;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* footer start here */
+
+.footer {
+    width: 100%;
+    background-color: #0f1116;
+    padding: 50px 0px;
+}
+
+.footer-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-center p {
+    margin-top: 0px;
+    color: grey;
+    font-size: 15px;
+}
+
+.footer-center .silver {
+    color: silver;
+}
+
+.footer-center i {
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 100%;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:700px){
+    .block1-text p{
+        font-size:15px;
+    }
+    .block1-boxs .box{
+        width:100%;
+        clear: both;
+    }
+    .block1-boxs .margin-left{
+        margin-top:30px;
+        margin-left: 0px;
+    }
+
+    /* block 2 start here */
+       .block2-center .box{
+           width:80%;
+           float: none;
+           clear: both;
+           text-align:center;
+           margin:0 auto;
+           margin-top:50px;
+           border-bottom: 1px solid silver;
+       }
+      
+       .block2-center .box .small-box h2{
+           font-size: 30px;
+       }
+      
+
+
+
+    /* block 2 ends here */
+    .block3-center .name{
+        width:90%;
+        margin-left: 5%;
+    }
+    .block3-center .email{
+        width:90%;
+        margin-left: 5%;
+    }
+    .block3-center .message{
+        width:90%;
+        margin-left: 5%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:640px){
+    .block2-center .box i {
+        float:none;
+        font-size: 80px;
+    }
+    .block2-center .box .small-box{
+        float: none;
+    }
+    ;
+}
